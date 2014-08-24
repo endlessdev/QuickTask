@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_c"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <EditText
+        android:id="@+id/ac_e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="전화번호를 입력해 주십시오."
+        android:inputType="phone"
+        android:gravity="center"/>
+
+</LinearLayout>
